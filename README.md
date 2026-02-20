@@ -1,30 +1,79 @@
-# NevmaReborn-Java--2D--Platformer-Game-
+# Nevma Reborn – Java 2D Platformer (WIP Prototype)
 
-A 2D platformer game built in Java using LibGDX.
+🚧 Work in Progress – Early Development Stage  
 
-📖 **Story**  
-In a futuristic world where human consciousness is uploaded into robotic bodies, the protagonist awakens in a mining cave with fragmented memories.  
-To escape the hostile environment, he must fight corrupted robots and outsmart the AI overlord *Mother* that controls the planet.
+This repository currently contains core Java classes of a 2D platformer game built with LibGDX.  
+It represents an in-progress prototype focused on gameplay logic and architecture.
 
-⚙️ **Features**
-- Player movement: walk, jump, double jump  
-- Physics-based collisions  
-- Animated sprite system (idle, walk, jump, death)  
-- Mining cave level with background parallax scrolling  
-- Object-oriented design (`Player.java`, `MiningCaveScreen.java`, etc.)  
+⚠️ This is NOT a runnable build.  
+The project does not yet include the full LibGDX Gradle setup or game assets.
 
-🛠️ **Tech Stack**
-- Java 17  
-- LibGDX Framework  
-- IntelliJ IDEA (development environment)  
+---
 
-🎮 **Controls**
-- Left / Right Arrow: Move  
-- Space: Jump / Double Jump  
+## 📖 Concept
 
-🚀 **Future Plans**
-- Enemy AI and combat system  
-- Additional levels and environments  
-- Save/load game progress  
+In a futuristic world where human consciousness is uploaded into robotic bodies,  
+the protagonist awakens inside a mining cave with fragmented memories.
 
-👨‍💻 **Developed by Panagiotis Zois**
+This project explores:
+- player movement mechanics
+- physics handling
+- animation logic
+- object-oriented structure
+
+---
+
+## 🧠 Current Implementation (Code Only)
+
+Included source files:
+- `Main.java`
+- `Player.java`
+- `MiningCaveScreen.java`
+
+Implemented systems (prototype level):
+- Player movement (walk)
+- Jump / double jump logic
+- Basic gravity handling
+- Collision logic structure
+- Animation state management
+- Screen architecture
+
+---
+
+## 🛠️ Tech Stack
+
+- Java 17
+- LibGDX (framework target)
+- IntelliJ IDEA
+
+---
+
+## ⚙️ Project Status
+
+This repository currently contains only gameplay logic classes.
+
+Missing:
+- LibGDX Gradle multi-module structure
+- Desktop launcher
+- Game assets (sprites, backgrounds)
+- Playable packaged build
+- Enemy AI
+- UI / menus
+- Save system
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] Convert to full LibGDX Gradle project
+- [ ] Add asset pipeline
+- [ ] Implement enemy system
+- [ ] Create first playable desktop build
+- [ ] Add additional levels
+
+---
+
+## 👨‍💻 Developer
+
+Panagiotis Zois  
+MSc Information & Communication Technology
